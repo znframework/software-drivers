@@ -1,0 +1,13 @@
+{
+    "name": "znframework/software-drivers",
+    "description": "ZN Framework Software Drivers",
+    "license": "MIT",
+    "homepage": "https://znframework.com",
+    "keywords": ["znframework", "sofware drivers", "nginx", "iis", "valet", "apache"],
+    "authors": [
+        {
+            "name": "Ozan Uykun",
+            "email": "ozan@znframework.com"
+        }
+    ]
+}
