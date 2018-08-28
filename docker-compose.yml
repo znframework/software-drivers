@@ -1,0 +1,13 @@
+version: "2"
+services:
+  znframework:
+    build: https://github.com/znframework/fullpack-edition.git#5.9
+    ports:
+      - "8080:80"
+    volumes:
+      - /var/www/html
+    networks:
+      - default
+networks:
+  default: ~
+
