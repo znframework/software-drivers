@@ -49,6 +49,7 @@ RUN apt-get update && apt-get install -y libz-dev libmemcached-dev && \
 # APC/U Installation
 #-------------------------------------------------------------------------- 
 RUN pecl install apcu && docker-php-ext-enable apcu
+RUN printf "\napc.enable_cli=On" >> /usr/local/etc/php/conf.d/docker-php-ext-apcu.ini
 
 #--------------------------------------------------------------------------
 # OPCache Installation
